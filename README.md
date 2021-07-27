@@ -4,8 +4,9 @@ A simple python implementation of a few algorithms which sample arms of a multi-
 
 ## Usage
 
-` python3 bandit.py --instance ins --algorothm algo --randomSeed rs --epsilon eps --horizon hz `
-where
+` $ python3 bandit.py --instance ins --algorothm algo --randomSeed rs --epsilon eps --horizon hz `
+
+Where
 - `ins` is the path to a bandit instance file (examples given in `instances/`)
 - `aglo` is one of `epsilon-greedy`, `ucb`, `kl-ucb`, `thompson-sampling`, and `thompson-sampling-with-hint`
 - `rs` is a non-negative integer used to make the results deterministic
